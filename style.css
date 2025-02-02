@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgba(0,0,0,0.82);
+  color: white;
+}
+
+p {
+  text-align: justify;
+  text-indent: 18px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0,2,212,0.800);
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  text-shadow: 1px 1px 10px rgba(0,126,143,0.750);
+}
+
+#p {
+  width: 300px;
+  text-align: justify;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+header > nav > ul > li {
+  display: inline-block;
+  padding: 6px;
+  margin-bottom: 5px;
+}
+
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: rgb(144,144,144);
+}
+
+header > nav > ul > li > a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 6px;
+  transition: 0.5s;
+}
+
+section#sobre {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 30px;
+  padding-top: 15px;
+  width: 90vw;
+  max-width: 500px;
+  margin: auto;
+  height: 300px;
+  margin-top: 28px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.565);
+}
+
+section#sobre > p {
+  display: flex;
+  align-items: center;
+}
+
+section#projetos {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  width: 90vw;
+  padding-top: 15px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 7px;
+  margin-top: 28px;
+  justify-content: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.565);
+}
+
+section#projetos > p {
+  align-items: center;
+}
+
+
+section#projeto2 {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  width: 90vw;
+  padding-top: 15px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 28px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.565);
+}
+
+section#habilidade {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  width: 90vw;
+  padding-top: 15px;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 28px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.565);
+}
+
+section#contato {
+  display: flex;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 9px;
+  padding-left: 25px;
+  height: 100px;
+  padding-top: 20px;
+  background-color: rgb(200,200,200);
+}
+
+section#contato ul > li > a {
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 5px;
+  padding-top: 10px;
+}
+
+section#contato > ul > li > a.insta {
+  color: #E4405F;
+}
+
+section#contato > ul > li > a.git {
+  color: #181717;
+}
+
+section#contato > ul > li > a.link {
+  color: #0A66C2;
+}
+
+section#projetos > div.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#projetos > div.projeto > .img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+section#projeto2 > div.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#projeto2 > div.projeto > .img2 {
+    height: 300px;
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+section#projeto2 > div.projeto > span > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 7px;
+  margin: 0px 40px;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: rgb(144,144,144);
+}
+
+section#projeto2 > div.projeto > span > a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: #46beff;
+  border-radius: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  transition: 0.5s;
+}
+
+section#projetos > div.projeto > span > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 7px;
+  margin: 0px 40px;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: rgb(144,144,144);
+}
+
+section#projetos > div.projeto > span > a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: #46beff;
+  border-radius: 10px;
+  padding: 6px;
+  transition: 0.5s;
+}
+
+footer#final {
+  text-align: center;
+  background-color: #3D2F2E;
+  color: white;
+}
+
+footer#final > sub > a {
+  text-decoration: none;
+  color: #DE643E;
+  font-size: 1.2em;
+}
