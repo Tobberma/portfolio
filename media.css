@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* media
+Celulares → max-width: 480px
+
+Tablets → min-width: 600px e max-width: 1024px
+
+Computadores → min-width: 1024px
+*/
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 8px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(144,144,144);
+}
+
+header {
+  height: 125px;
+}
+
+
+header > nav > ul > li > a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+img {
+  height: 160px;
+  width: 160px;
+}
+
+}
+
+@media screen and  (min-width: 1300px) {
+  header > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 12px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(144,144,144);
+}
+
+header {
+  height: 125px;
+}
+
+
+header > nav > ul > li > a:hover {
+  text-decoration: underline;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+img {
+  height: 160px;
+  width: 160px;
+}
+
+section#projeto > div.projeto > span > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #CCCCCCCC;
+  padding: 10px;
+  margin: 0px 40px;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: rgb(144,144,144);
+}
+
+}
+
